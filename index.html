@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Quote Saver</title>
+
+    <!-- OSWALD FONT LIKE YOUR ORIGINAL SITE -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="body">
+
+    <!-- NAVBAR (COPIED FROM YOUR ORIGINAL PROJECT) -->
+<div class="topnav">
+    <a class="brand active"><b>HITESH-235</b></a>
+
+    <div class="nav-links">
+        <a href="https://github.com/HITESH-235">GITHUB</a>
+        <a href="https://hitesh-235.github.io/">HOME</a>
+        <a href="mailto:codonstream.72@gmail.com">MAIL</a>
+        <a href="https://www.linkedin.com/in/hitesh235/">LinkedIn</a>
+    </div>
+
+    <a href="javascript:void(0);" class="icon" onclick="toggleDropdown()">
+        <i class="fa fa-bars"></i>
+    </a>
+</div>
+
+<!-- DROPDOWN APPEARS BELOW NAVBAR -->
+<div id="dropdown" class="dropdown-menu">
+    <a href="https://github.com/HITESH-235">GITHUB</a>
+    <a href="https://hitesh-235.github.io/">HOME</a>
+    <a href="mailto:codonstream.72@gmail.com">MAIL</a>
+    <a href="https://www.linkedin.com/in/hitesh235/">LinkedIn</a>
+</div>
+
+
+    <!-- MAIN CONTENT -->
+    <main class="main-wrap">
+
+        <section class="panel">
+            <h1 class="title">ADD QUOTE</h1>
+
+            <div class="input-box">
+                <textarea id="quoteInput" placeholder="Enter quote..."></textarea>
+
+                <div class="button-row">
+                    <button id="addBtn" class="btn primary">SAVE</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="panel">
+            <h2 class="title">YOUR QUOTES</h2>
+            <div id="quoteContainer" class="quotes-wrapper"></div>
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+
+<footer class="footer">
+    © Hitesh Sinha
+</footer>
+
+</body>
+
+</html>
